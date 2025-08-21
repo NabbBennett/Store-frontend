@@ -16,7 +16,7 @@ body{
 /*NAVBAR*/
 
 .Navbar {
-    background: #643E59;
+    background: #bbb9ba;
     width: 100%;
     margin: auto;
     border-radius: 16px;
@@ -139,7 +139,165 @@ header h1 {
     gap: 0.5rem;
 }
 
-/*FILTERS*/
+/*SHOP*/
 
+.Store{
+    grid-template-columns: repeat(2, auto);
+    padding: 10px 40px;
+    display: grid;
+    gap:20px
+}
 
+.Store-products {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 20px;
+}
 
+.product-card {
+    color: white;
+    background-color: #d8d5d5;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
+    flex-direction: column;
+    text-align: center;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+}
+
+.product-info {
+    text-align: center;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.price{
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    font-weight: lighter;
+    color: #ffffff;
+}
+
+.filters{
+    background-color: white;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filters h2{
+    text-align: left;
+    width: 80px;
+    font-size: 35px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.Service-filter{
+    text-align: left;
+    padding-left: 10px;
+    background-color: #ffffff;
+}
+
+.Service-filter h3{
+    text-align: left;
+    font-size: 20px;
+    padding: 0 5px;
+    margin: 10px 0;
+}
+
+.Price-filter{
+    text-align: left;
+    padding-left: 10px;
+    background-color: #ffffff;
+}
+
+.Price-filter h3{
+    text-align: left;
+    font-size: 20px;
+    padding: 0 5px;
+    margin: 15px 0;
+}
+
+.Discounts{
+    text-align: left;
+    padding-left: 10px;
+    background-color: #ffffff;
+}
+
+.Discounts h3{
+    text-align: left;
+    font-size: 20px;
+    padding: 0 5px;
+    margin: 15px 0;
+}
+
+/*Contact*/
+
+.Contact {
+    background-image: url(https://media.istockphoto.com/id/1154618066/es/foto/fondo-de-spa.jpg?s=612x612&w=0&k=20&c=8FDEVVtSY0haGyKqyrYCKo1O7ee4ucgDMh6Py2n4MFU=);
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+    background-color: #FCFCFC;
+    text-align: center;
+    padding: 100px 40px;
+    margin: 30px 40px;
+}
+
+.Contact h2{
+    color: rgb(0, 0, 0);
+    align-items: center;
+    font-size: 2.5rem;
+    font-family: "Oranienbaum", serif;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.Contact a{
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.Contact a:hover{
+    text-decoration: underline;
+}
+
+/*FOOTER*/
+
+footer {
+    background: #000000;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer h3 {
+    font-family: "Oranienbaum", serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+footer .social-media {
+    margin: 1rem 0;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-media a:hover {
+    text-decoration: underline;
+}
