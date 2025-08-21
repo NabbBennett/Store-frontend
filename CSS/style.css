@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+
+.oranienbaum-regular {
+  font-family: "Oranienbaum", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    background-color: #F2F2EF;
+    font-family: "Oranienbaum", serif;
+}
+
+/*NAVBAR*/
+
+.Navbar {
+    background: #643E59;
+    width: 100%;
+    margin: auto;
+    border-radius: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-family: "Oranienbaum", serif;
+    padding: 0.5rem 2rem;
+    display: flex;
+    align-items: center;
+    min-height: 60px;
+    max-width: auto;
+    z-index: 9;
+}
+
+.Navbar-Content {
+    width: auto;
+    display: flex;
+    flex: 1 0 0px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.Navbar-Logo {
+    font-size: 2rem;
+    font-weight: 600px;
+    font-family: "Oranienbaum", serif;
+    letter-spacing: -1px;
+}
+
+.Navbar-Links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex:  1 0;
+    min-width: 0;
+    flex-wrap: wrap;
+}
+.Navbar-Links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0 5%;
+    border-radius: 6px;
+    position: relative;
+}
+
+.Navbar-Links a:hover {
+    color: #b9b9b9;
+    background: #ffffff22;
+}
+
+.Navbar-Icons {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    flex-shrink: 0;
+}
+
+.Navbar-Icons .icon {
+    color: #ffffff;
+}
+
+.Navbar-Icons .icon:hover {
+    color: #636363;
+}
+
+/*HEADER*/
+
+header{
+    display: flex;
+    padding: 2rem;
+}
+
+header h1 {
+    font-family: "Oranienbaum", serif;
+    font-weight: bold;
+    font-size: 4rem;
+    margin: auto;
+    text-align: center;
+    color: black;
+}
+
+.About-us{
+    padding: 10px 40px;
+}
+
+.us {
+    padding: 40px 96px 0px;
+    align-items: center;
+    grid-template-columns: repeat(2, minmax(50px, 1fr));
+    display: grid;
+    flex: 0 0 auto;
+    gap: 32px;
+    grid-auto-rows: min-content;
+    grid-template-rows: repeat(1, min-content);
+    height: min-content;
+    justify-content: center;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+}
+
+.Card{
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
+    border-radius: 12px;
+    text-align: center;
+    padding: 10px 0 0;
+}
+
+.icon-card {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 12px;
+    gap: 0.5rem;
+}
+
+/*FILTERS*/
+
+
+
