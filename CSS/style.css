@@ -110,7 +110,7 @@ header h1 {
 .us {
     padding: 40px 96px 0px;
     align-items: center;
-    grid-template-columns: repeat(2, minmax(50px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     display: grid;
     flex: 0 0 auto;
     gap: 32px;
@@ -150,7 +150,7 @@ header h1 {
 
 .Store-products {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
 }
 
@@ -289,15 +289,20 @@ footer p {
     font-size: 1rem;
 }
 
-footer .social-media {
-    margin: 1rem 0;
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
 }
 
-footer .social-media a {
-    margin: 0 10px;
-    text-decoration: none;
+.icon-img-social {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease;
 }
 
-footer .social-media a:hover {
-    text-decoration: underline;
+.icon-img-social:hover {
+  transform: scale(1.1);
 }
